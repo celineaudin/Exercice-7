@@ -1,0 +1,33 @@
+div{
+  margin: 10% auto;
+  width: 500px;
+}
+select{
+  display: block;
+  margin: 10% auto;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #0563af;
+  color: #fff;
+  padding: 10px;
+  margin: 15px;
+  width: : 300px;
+  height: 12vh;
+  border: none;
+  font-size: 1rem;
+  box-shadow: 0 5px 25px rgba(0,0,0,.7);
+  text-align: center;
+  /* l'effet qui joue sur la taille de select quand on clique dessue */
+  transition: transform 0.3s ease-in;
+
+}
+select:hover{
+    outline: none;
+    transform: scale(2);
+}
+label{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+}
